@@ -1,0 +1,13 @@
+
+User id is in the url
+http://onyolo.com/m/<ID>/<meta>
+
+A key is dumped to the console on message submit (appears to be a captcha UID)
+
+EX: 6Lc8pbEUAAAAAH1vRl91BAwIZruc_awYoPLL_9p1
+
+A post is made to:
+http://onyolo.com/<ID>/message
+
+{"text":"<String>","cookie":"<String>","wording":"Send anonymous messages to <Name>"}
+
